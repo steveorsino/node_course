@@ -41,6 +41,7 @@ const requestHandler = (req, res) => {
 //   handler: requestHandler,
 //   someText: 'some hard coded text'
 // };
-
+//or
 module.exports.handler = requestHandler;
-module.exports.someText = 'some hard coded text';
+//or
+exports.someText = 'some hard coded text';
