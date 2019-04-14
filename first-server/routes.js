@@ -25,9 +25,7 @@ const requestHandler = (req, res) => {
         res.setHeader('Location', '/');
         return res.end();
       });
-  
     });
-  
   }
   res.setHeader('Content-Type', 'text/html');
   res.write('<html>');
